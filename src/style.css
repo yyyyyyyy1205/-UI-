@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: var(--body-bg);
+  color: var(--text-normal);
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+.container {
+  width: 540px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.module {
+  margin: 18px 0;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  background-color: var(--page-bg);
+  transition:
+    background 0.3s,
+    border-color 0.3s;
+}
+
+.info-module {
+  background-color: var(--body-bg);
+}
+
+.part-title {
+  font-weight: bold;
+  color: var(--text-color);
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+button {
+  background-color: var(--btn-bg);
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  margin: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.25s;
+}
+button:hover {
+  background-color: var(--btn-hover);
+}
+
+input {
+  width: 100%;
+  padding: 9px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  margin: 5px 0;
+  background: var(--page-bg);
+  color: var(--text-normal);
+}
+
+.skill {
+  display: inline-block;
+  background-color: var(--skill-bg);
+  color: var(--text-color);
+  padding: 5px 10px;
+  margin: 4px;
+  border-radius: 4px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: var(--skill-bg);
+  border: 2px solid var(--border-color);
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+.avatar::before {
+  content: "";
+  position: absolute;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #fff;
+}
+.avatar::after {
+  content: "";
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 30px;
+  border-radius: 30px 30px 0 0;
+  background: #fff;
+}
+
+.base-card {
+  border: 1px solid var(--border-color);
+  padding: 16px;
+  margin: 14px 0;
+  border-radius: 8px;
+  background-color: var(--card-bg);
+  transition:
+    background 0.3s,
+    border-color 0.3s;
+}
+.card-header {
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+.card-body {
+  padding: 4px 0;
+  line-height: 1.6;
+}
+.card-footer {
+  margin-top: 10px;
+  border-top: 1px solid var(--border-color);
+  padding-top: 10px;
+}
+
+a {
+  color: var(--text-color);
+}
+a:hover {
+  color: var(--btn-bg);
+}

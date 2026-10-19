@@ -1,0 +1,4 @@
+error: JSON-RPC 错误 -32603: doc_to_image: API error (code 437009) from https://docs.qq.com/api/v6/slidetools/convert/doc_to_images: DOC 转 PDF 失败
+{"ok": false, "exit_code": 1, "error": "JSON-RPC 错误 -32603: doc_to_image: API error (code 437009) from https://docs.qq.com/api/v6/slidetools/convert/doc_to_images: DOC 转 PDF 失败", "rpc_code": -32603}
+error: JSON-RPC 错误 -32603: doc_to_image: API error (code 437009) from https://docs.qq.com/api/v6/slidetools/convert/doc_to_images: DOC 转 PDF 失败
+{"ok": false, "exit_code": 1, "error": "JSON-RPC 错误 -32603: doc_to_image: API error (code 437009) from https://docs.qq.com/api/v6/slidetools/convert/doc_to_images: DOC 转 PDF 失败", "rpc_code": -32603}
